@@ -56,10 +56,6 @@ export const SmartSparrow = () => {
   const isDark = themeId === 'dark';
   const themes = ['dark', 'light'];
 
-  const handleThemeChange = index => {
-    dispatch({ type: 'setTheme', value: themes[index] });
-  };
-
   return (
     <Fragment>
       <ProjectContainer className="spr">

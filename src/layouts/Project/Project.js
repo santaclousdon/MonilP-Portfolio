@@ -1,4 +1,3 @@
-import { Button } from 'components/Button';
 import { Heading } from 'components/Heading';
 import { Image } from 'components/Image';
 import { Section } from 'components/Section';

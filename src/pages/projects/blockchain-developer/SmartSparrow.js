@@ -7,9 +7,6 @@ import imageBlkLessonBuilderDark from 'assets/blk-lesson-builder-dark.jpg';
 import imageBlkLessonBuilderLightLarge from 'assets/blk-lesson-builder-light-large.jpg';
 import imageBlkLessonBuilderLightPlaceholder from 'assets/spr-lesson-builder-light-placeholder.jpg';
 import imageBlkLessonBuilderLight from 'assets/blk-lesson-builder-light.jpg';
-import backgroundSprLarge from 'assets/spr-background-large.jpg';
-import backgroundSprPlaceholder from 'assets/spr-background-placeholder.jpg';
-import backgroundSpr from 'assets/spr-background.jpg';
 import imageSprDesignSystemDarkPlaceholder from 'assets/spr-design-system-dark-placeholder.png';
 import imageSprBackDark from 'assets/spr-back-dark.png';
 import imageSprBackDarkLarge from 'assets/spr-back-dark-large.png';
@@ -41,7 +38,6 @@ import {
 import dynamic from 'next/dynamic';
 import { Fragment, useMemo } from 'react';
 import { media } from 'utils/style';
-import Image from 'next/image';
 import styles from './SmartSparrow.module.css';
 
 const Earth = dynamic(() =>
@@ -67,10 +63,6 @@ export const SmartSparrow = () => {
 
   const isDark = themeId === 'dark';
   const themes = ['dark', 'light'];
-
-  const handleThemeChange = index => {
-    dispatch({ type: 'setTheme', value: themes[index] });
-  };
 
   return (
     <Fragment>
