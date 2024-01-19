@@ -18,7 +18,6 @@ import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
 import { Meta } from 'components/Meta';
 import { ThemeProvider, useTheme } from 'components/ThemeProvider';
-import { useAppContext } from 'hooks';
 import {
   ProjectBackground,
   ProjectContainer,
@@ -51,10 +50,8 @@ const roles = [
 
 export const SmartSparrow = () => {
   const { themeId } = useTheme();
-  const { dispatch } = useAppContext();
 
   const isDark = themeId === 'dark';
-  const themes = ['dark', 'light'];
 
   return (
     <Fragment>
