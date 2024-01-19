@@ -16,9 +16,7 @@ import imageFullLessonBuilderLight from 'assets/full-lesson-builder-light.jpg';
 import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
-import { Link } from 'components/Link';
 import { Meta } from 'components/Meta';
-import { SegmentedControl, SegmentedControlOption } from 'components/SegmentedControl';
 import { ThemeProvider, useTheme } from 'components/ThemeProvider';
 import { useAppContext } from 'hooks';
 import {
@@ -27,7 +25,6 @@ import {
   ProjectHeader,
   ProjectImage,
   ProjectSection,
-  ProjectSectionColumns,
   ProjectSectionContent,
   ProjectSectionHeading,
   ProjectSectionText,
