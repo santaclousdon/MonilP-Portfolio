@@ -180,7 +180,7 @@ export const SmartSparrow = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>The achievements</ProjectSectionHeading>
               <ProjectSectionText>
-                Designing the website's architecture with scalability in mind to
+                Designing the architecture of website with scalability in mind to
                 accommodate future growth and increased demand.
               </ProjectSectionText>
               <ProjectSectionText>
