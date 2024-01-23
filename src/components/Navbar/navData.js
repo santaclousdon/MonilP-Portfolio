@@ -8,6 +8,10 @@ export const navLinks = [
     pathname: '/#details',
   },
   {
+    label: 'Skills',
+    pathname: '/skills',
+  },
+  {
     label: 'Contact',
     pathname: '/contact',
   },
@@ -26,7 +30,7 @@ export const socialLinks = [
   },
   {
     label: 'Github',
-    url: 'https://github.com/santaclous112',
+    url: 'https://github.com/msilucifer',
     icon: 'github',
   },
 ];
