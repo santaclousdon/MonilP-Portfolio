@@ -209,7 +209,7 @@ export const SmartSparrow = () => {
                 iconHoverShift
                 className={styles.linkButton}
                 icon="chevronRight"
-                href="https://panoraven.com/en"
+                href="https://www.cook.finance/"
               >
                 Visit website
               </Button>
